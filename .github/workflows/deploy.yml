@@ -3,7 +3,7 @@ name: Deploy Multi-Container App
 on:
   push:
     branches:
-      - main
+      - main   # or master
 
 jobs:
   build-and-push:
